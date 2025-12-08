@@ -56,7 +56,26 @@ During training, tumor labels are randomly removed from segmentation masks with 
 4. 100 patients data used. Split: 80% train, 10% validation, 10% test
 
 ---
+## Drive Links for Dataset & Model Weights
 
+All essential project files are organized in a **Master Resources** folder. Make sure to create a link to this folder on your drive before running inference using `MSML612_Project_Evaluation.ipynb`, as the process may fail otherwise. This folder contains:
+
+- **Original 2D Slices** from the preprocessed BraTS 2021 dataset  
+- **Generated Images** from Models 1, 2, and 3  
+- **Model 4 Weights** (Segmentation U-Net for evaluation)  
+
+**Access Master Resources:**  
+- **Master Resources folder (contains original dataset and generated images for model 1, 2, 3 and weights of model 4)**  
+  [Drive Link](https://drive.google.com/drive/folders/1TMenZ1euJRVveX_euM2aRQcUi8nAyUas)
+
+- **BraTS 2021 Dataset (preprocessed 100 patients for this project in 2D)**  
+  [Drive Link](https://drive.google.com/drive/folders/1GoPDYD5KU66Rh5-mK070tC8eN1fk6Jn8)
+
+- **Model 4 Weights (Segmentation U-Net)**  
+  [Drive Link](https://drive.google.com/drive/folders/1prEiGg5XumpRwJTZS8288gVUC3qCim9-)
+
+- **Generated Images from Models 1, 2, 3 and read for evaluation using `MSML612_Project_Evaluation.ipynb` notebook**  
+  [Drive Link](https://drive.google.com/drive/folders/1Ir8fPzWccWrejgctFFczCMZHAW-3J7YA)
 ## Setup Instructions
 
 ### Prerequisites
