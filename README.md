@@ -102,6 +102,24 @@ pip install numpy pandas matplotlib scikit-image nibabel
 pip install jupyter notebook
 ```
 
+---
+
+## Replicating the Model Demo
+
+To replicate the interactive model demonstration and counterfactual generation:
+
+### Quick Start
+1. **Access the dataset**: Create a link to the [Master Resources folder](https://drive.google.com/drive/folders/1TMenZ1euJRVveX_euM2aRQcUi8nAyUas) on your Google Drive
+2. **Open the evaluation notebook**: Launch `MSML612_Project_Evaluation.ipynb` in Google Colab or Jupyter
+3. **Run the demo cell**: Execute the model demo section to interact with the trained models
+
+### What the Demo Includes
+- **Interactive visualization** of original brain MRI images with tumor masks
+- **Real-time generation** of counterfactual images (tumor removal/modification)
+- **Side-by-side comparison** between original and synthesized images
+- **Quantitative metrics** display (SSIM, Dice scores, etc.)
+
+The demo uses the preprocessed BraTS 2021 dataset (100 patients) and pre-trained model weights, all accessible through the provided Drive links. No additional model training is required - simply run the evaluation notebook to see the controllable synthesis in action.
 
 ---
 
